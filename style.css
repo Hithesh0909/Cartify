@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    background-color: black;
+}
+
+.logo{
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+/* HERO SECTION */
+
+.hero{
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: white;
+}
+
+.hero h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* PRODUCTS */
+
+.products{
+    padding: 50px;
+    text-align: center;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* ABOUT */
+
+.about{
+    padding: 50px;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
