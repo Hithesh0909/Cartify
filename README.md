@@ -1,0 +1,2 @@
+# Cartify
+Mini Shopping Platform
