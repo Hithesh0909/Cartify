@@ -39,7 +39,7 @@ body{
 
 .hero{
     height: 80vh;
-
+    background-image:url("images/");
     display: flex;
     justify-content: center;
     align-items: center;
